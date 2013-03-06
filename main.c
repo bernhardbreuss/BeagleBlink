@@ -14,7 +14,7 @@ void main(void) {
 	int i;
 
 	while(1) {
-		for(i = 0; i < 200000; i++);
+		for(i = 0; i < 300000; i++);
 
 		*(GPIO5_OUT) ^= (LED0_PIN | LED1_PIN);
 	}
